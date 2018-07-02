@@ -2,7 +2,8 @@
   sponsors:
     - name: WSP
       logo: wsp.png
-      link: http://www.wspdigital.com/ 
+      link: wspdigital.com
+      href: http://www.wspdigital.com/ 
       blurb: |  
         WSP Digital is the software engineering division of WSP, a publicly listed
         global consulting engineering company with over 40,000 employees in more than
@@ -23,15 +24,34 @@
         engineering excellence through collaboration, informed debate and learning - we
         believe that our commercial success is directly related to the quality of what
         we produce and the talent and commitment of our team.
-    - name: Your Company here
-      logo: plat_placeholder_logo.png
-      placeholder: true
+    - name: IRESS
+      logo: iress.png
+      link: iress.com/au
+      href: https://www.iress.com/au 
       blurb: | 
-        PyCon AU 2018 can only operate with the generousity of our sponsors.
-        If you are interested in helping our event, please see our <a
-        href="https://2018.pycon-au.org/news/call-for-sponsorship/">Prospectus</a>
+        We began in 1993 as a small Australian tech start-up. Now we're
+        a global team of over 1,800 people across five continents - and we're still
+        growing. We're listed on the Australian Securities Exchange, with a strong
+        financial track record and our continuous investment in product development and
+        innovation is what keeps us ahead of the game.
         <br><br>
-        Platinum is an exclusive sponsorship, limit two.
+        We design, develop and deliver solutions that help with life's big decisions -
+        from getting a mortgage, planning for retirement, to trading on the stock
+        exchange - things that make a real difference to people's lives and financial
+        well-being. We may be one of the largest financial software providers, but we
+        haven't forgotten our roots; we've kept the entrepreneurial spirit and agility
+        that defined our early years - it's something we continue to look for and
+        admire in our people.
+        <br><br>
+        With offices across Australia, the UK, Canada, South Africa, New Zealand and
+        Singapore, our team might span the world but we unite to deliver a shared
+        vision - to help our clients keep their promises by providing the very best
+        that fintech has to offer.
+        <br><br>
+        We are constantly looking for talented Python developers - the language is used
+        by all development teams and is the primary development language used on our
+        core product XPLAN.
+
 
 - title: Gold Sponsors
   placeholder: true
@@ -49,10 +69,11 @@
   sponsors:
    - name: James Cook University
      logo: JCU.jpg
-     link: https://online.jcu.edu.au/
+     link: online.jcu.edu.au
+     href: https://online.jcu.edu.au/
      blurb: | 
         James Cook University (JCU) recognises the power of data science and is a proud
-        supporter of PyCon Australia in 2018.<br>
+        supporter of PyCon AU in 2018.<br>
         <br>
         JCU prides itself on offering degrees that count – and today, every business
         and industry understands the invaluable need for data scientists. JCU has
@@ -63,7 +84,8 @@
         real world.
    - name: CyberHound
      logo: CyberHound.png
-     link: https://cyberhound.com
+     link: cyberhound.com
+     href: https://cyberhound.com
      blurb: |
         CyberHound is a leading provider of internet management and security
         solutions for K-12 schools.<br>
@@ -77,7 +99,8 @@
         provider of connectivity services across the Asia Pacific region.
    - name: Data61 
      logo: Data61CSIRO.png
-     link: https://www.data61.csiro.au/
+     link: data61.csiro.au
+     href: https://www.data61.csiro.au/
      blurb: |
         CSIRO's Data61 is Australia’s leading data innovation group. Data science,
         engineering, and design are at the core of what we do. Data61 is partnering
@@ -86,7 +109,8 @@
    - name: Espressif Systems
      logo: Espressif.png 
      width: 250px
-     link: https://www.espressif.com/
+     link: espressif.com
+     href: https://www.espressif.com/
      blurb: |
         Espressif Systems is a world-leading Internet-of-Things company. We built the
         widely popular ESP8266 and ESP32 chips. We are an innovative team of
@@ -100,7 +124,8 @@
         democratization of technology that will develop tomorrow's Internet of Things.
    - name: Mathspace
      logo: mathspace.png
-     link: https://mathspace.co/
+     link: mathspace.co
+     href: https://mathspace.co/
      blurb: |
         Hold on! You’re reading our corporate sponsors blurb? Thanks!
         <br><br>
@@ -122,7 +147,8 @@
 
    - name: Facebook
      logo: facebook.png
-     link: https://tinyurl.com/pyjobs-fb
+     link: tinyurl.com/pyjobs-fb
+     href: https://tinyurl.com/pyjobs-fb
      blurb: | 
         Our mission at Facebook is to give people the power to build community
         and bring the world closer together.  As extensive users of Python at Facebook,
@@ -131,7 +157,8 @@
 
    - name: Django Software Foundation
      logo: django.png
-     link: https://www.djangoproject.com/foundation/
+     link: djangoproject.com/foundation
+     href: https://www.djangoproject.com/foundation/
      blurb: |
         The Django Software Foundation is a US-based non-profit organisation
         with the mission to promote, support, and advance the Django Web framework -
@@ -150,12 +177,50 @@
 
         The Django Software Foundation is the sponsor of DjangoCon AU 2018
 
+   - name: Biarri
+     logo: biarri.png
+     link: biarri.com
+     href: https://biarri.com/
+     blurb: |
+        Biarri is a world leader at solving business problems through intuitive
+        SaaS solutions powered mathematical engines. We work with awesome people on
+        rewarding and complex problems across Rail, Transportation, Telecommunications,
+        Resources, and Healthcare delivering systems to make businesses more efficient.
+        <br><br>
+        If you want to find out more about the work that we do at Biarri and the
+        technology that powers our optimisation solutions come and talk to us at PyCon
+        AU! 
+
+   - name: Python Software Foundation
+     logo: python_logo.png
+     href: https://python.org/psf
+     link: python.org/psf
+     blurb: | 
+        The mission of the Python Software Foundation is to promote, protect,
+        and advance the Python programming language, and to support and facilitate the
+        growth of a diverse and international community of Python programmers. The
+        Python Software Foundation is proud to be an active supporter of PyCon
+        Australia and its education and community outreach programs.
+   - name: Reece
+     link: reecetech.com.au
+     href: https://www.reecetech.com.au/
+     twitter: reecetech
+     logo: reecetech.png
+     blurb: |
+        Reece is an Australian icon. You probably know us as Australia's largest
+        supplier of plumbing and bathroom products. In fact, the Reece Group is eight
+        distinct businesses – all heavily driven by technology. More importantly, the
+        160+ strong reecetech team creates most of its solutions in-house. We develop
+        our own POS, websites and apps to deliver exceptional customer experiences.
+
+
 - 
   title: Auspice
   sponsors: 
     - name: Linux Australia
       logo: LinuxAustralia.png
-      link: "https://linux.org.au"
+      link: linux.org.au
+      href: https://linux.org.au
       blurb: | 
         Linux Australia is the peak body for Open Source communities in
         Australia. PyCon AU 2018 is run under the auspice of Linux Australia. 

@@ -1,35 +1,32 @@
 ---
 layout: default
+sponsors: False
 ---
-
-<!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<header class="intro-header">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="site-heading">
+            <div class="col">
+                <span class="site-heading header-green" style="display: inline-block;">
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
                     <span class="subheading">{{ page.description }}</span>
-                </div>
+                </span>
+                {% if page.snake %}
+                <span class="d-none d-lg-inline-block header-serpent"><img alt="Ooh, it's s snake" src="/static/img/header-{{ page.snake }}.png"></span>
+                {% endif %}
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
 <div class="container page-content main-content">
-    <div class="row">
-        <div class="col-lg-12  col-md-12 col-md-offset-1">
-            {{ content }}
-        </div>
-    </div>
+    {{ content }}
 </div>
 
-<!-- Sponsor Footer -->
-{% if page.title != "Sponsor" %}
+{% if page.sponsors %}
+<hr>
 <div class="container page-content sponsor-foot">
     <div class="row">
-        <div class="col-lg-12 col-md-12 col-md-offset-1">
+        <div class="col">
             {% include sponsor_footer.html %}
         </div>
     </div>

@@ -1,10 +1,6 @@
 ## PyCon AU 2018 website
 
-**Note** 2018-02-18: 
- * This repo was moved from the pyconau organisation to the glasnt user, in order to take advantage of some Early Access Program features. 
- * There should be no functional change to the repo, but collaborators had to be manually migrated across
- * If you encounter any issues, please contact @glasnt
-
+https://2018.pycon-au.org
 
 ## Development 
 
@@ -25,7 +21,7 @@ jekyll serve -w
 
 ## Cards and Header Images
 
-Cards and Header images need to be absolute URLs. Prefix all with `/img`
+`thumbnailUrl` and `cards` are relative file names. Files exist in `static/img/people` and `static/img/cards`, respectively
 
 
 ## Issues

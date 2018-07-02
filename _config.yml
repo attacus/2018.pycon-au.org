@@ -1,14 +1,50 @@
 port: 4000
-header-img: /img/headers/DarlingHarbour_header.jpg
 base_author: "the Organisers"
 permalink: /news/:title/
+
+encoding: "bom|utf-8"
 
 # Navigation
 navigationLinks:
  - {permalink: '/about/', text: "About"}
  - {permalink: '/news/', text: "News"}
- - {permalink: '/speak/', text: "Speak"}
- - {permalink: '/assistance/', text: "Assistance"}
+ - {permalink: '/schedule/', text: "Schedule"}
  - {permalink: '/attend/', text: "Attend"}
+ - {permalink: '/attend/tickets/', text: "Tickets"}
  - {permalink: '/sponsor/', text: "Sponsor"}
  - {permalink: '/conduct/', text: "Conduct"}
+
+conferenceDays:
+ - Friday
+ - Saturday
+ - Sunday
+ - Monday
+ - Tuesday
+
+attendLinks:
+ - {permalink: '/attend/', text: "Attend"}
+ - {permalink: '/attend/ticket-tiers', text: "Ticket Tiers"}
+ - {permalink: '/attend/shirts', text: "Shirts"}
+ - {permalink: '/attend/accomodation', text: "Accomodation"}
+
+include: 
+ - _pages
+
+exclude:
+ - README.md
+ - CNAME
+ - Gemfile
+ - Gemfile.lock
+ - new_post
+
+future: true
+
+timezone: "AEST"
+
+collections:
+    talks:  
+        output: true
+        permalink: /:collection/:name/
+
+plugins:
+  - jemoji
