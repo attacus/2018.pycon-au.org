@@ -54,16 +54,46 @@
 
 
 - title: Gold Sponsors
-  placeholder: true
   sponsors:
-    - name: Your Company Here
-      logo: gold_placeholder_logo.png
-      placeholder: true
+    - name: Google
+      logo: google.png
+      link: google.com
+      href: https://google.com
       blurb: |
-        PyCon AU 2018 can only operate with the generousity of our sponsors.
-        If you are interested in helping our event, please see our <a
-        href="https://2018.pycon-au.org/news/call-for-sponsorship/">Prospectus</a>
-        <br><br>Gold sponsorship is limited to six sponsors only
+        Google’s mission is to organize the world’s information and make it universally accessible and useful.
+
+
+    - name: Elastic
+      logo: elastic.png
+      link: elastic.co
+      twitter: elastic
+      href: https://www.elastic.co/
+      blurb: "Elastic builds Open Source search and analytics tools to help empower users with datasets of any size. We :elasticheart: our users and the communities they take part in, and we are super proud and excited to support PyCon AU!"
+
+
+    - name: AWS
+      logo: aws.png
+      twitter: AmazonAustralia
+      link: bit.ly/AMZN_PyConAU
+      href: http://bit.ly/AMZN_PyConAU
+      blurb: | 
+        Amazon Web Services is the earth’s most customer centric company. In Sydney, we
+        have sizable software and networking engineering teams, owning global services
+        and software problems. We use Python to build, support, and scale AWS services
+        and the network where we aim to inspire developers to build and innovate. We
+        are focused on scaling ahead of customer demand to continue delighting our
+        customers. Amazon was recently voted one of the best places to work.
+        <br><br>
+        Come find us in the breaks at PyCon AU and ask us for some more details around
+        the problems we’re trying to solve. We look forward to meeting you during
+        PyCon AU!
+        <br><br>
+        If you’re a developer or engineer with Python skills and want to have
+        global impact, check out our open Sydney based positions - <a
+        href="http://bit.ly/AMZN_PyConAU">http://bit.ly/AMZN_PyConAU</a>.<br><br>We're pleased
+        to offer AWS credits to PyCon AU - <a
+        href="http://bit.ly/AMZNDevCredits">http://bit.ly/AMZNDevCredits</a>
+
        
 - title: Sponsors
   sponsors:
@@ -213,6 +243,128 @@
         160+ strong reecetech team creates most of its solutions in-house. We develop
         our own POS, websites and apps to deliver exceptional customer experiences.
 
+
+   - name: assurance
+     link: assurance.com.au
+     href: http://www.assurance.com.au
+     twitter: assurance
+     logo: assurance.png
+     blurb: |
+        Assurance is a specialist consultancy providing information security
+        and mobility services for critical infrastructure, financial services, and
+        government organisations.
+        <br><br>
+        Founded in 2005 in Melbourne, Assurance delivers specialist, vendor-neutral
+        threat and risk management services with the backing of a tight-knit team of
+        experienced penetration testers and security researchers.
+        <br><br>
+        As a security consultancy, Assurance takes Python to some interesting places,
+        using it to analyse system security and probe insecure configurations, in
+        addition to a wide variety of day-to-day business tools.
+        <br><br>
+        You can find out more about Assurance's history, staff, and services at
+        <a href="http://www.assurance.com.au">www.assurance.com.au</a>.
+
+
+   - name: deception.ai
+     link: deception.ai
+     href: https://deception.ai/
+     logo: deceptionai.png 
+     twitter: deception_ai
+     blurb: | 
+        At deception.ai, we use machine learning in a novel way to detect sophisticated
+        cyber security intruders. We are currently working on python-based solutions
+        that generate highly realistic documents, radio traffic for military forces and
+        user activity. These can be used as stand-alone solutions or enhancements to
+        extend existing systems. deception.ai is part of the Australian cyber security
+        company, Penten, winner of the Telstra ACT Business of the Year. We are
+        currently hiring experienced software engineers.  
+
+   - name: yubico
+     link: yubico.com 
+     href: https://www.yubico.com 
+     logo: yubico.png
+     twitter: yubico
+     blurb: | 
+      Yubico sets new global standards for simple and secure access to computers,
+      mobile devices, servers, and internet accounts. The company’s core invention,
+      the YubiKey, delivers strong hardware protection, with a simple touch, across
+      any number of IT systems and online services. The YubiHSM, Yubico’s
+      ultra-portable hardware security module, protects sensitive data stored in
+      servers.  Yubico is a leading contributor to both the FIDO2 and FIDO Universal
+      2nd Factor open authentication standards, and the company’s technology is
+      deployed and loved by 9 of the top 10 internet brands and by millions of users
+      in 160 countries.  Founded in 2007, Yubico is privately held, with offices in
+      Sweden, UK, Germany, USA, Australia, and Singapore. For more information: 
+      <a href="https://www.yubico.com">www.yubico.com</a>
+
+   - name: Stripe
+     link: stripe.com/jobs
+     href: https://stripe.com/jobs#location=melbourne
+     twitter: stripeaustralia
+     logo: stripe.png
+     blurb: | 
+      Stripe is a technology company that builds economic infrastructure for
+      the internet. Businesses of every size -- from new startups to public companies
+      like Salesforce and Facebook -- use the company's software to accept online
+      payments and run technically sophisticated financial operations in more than
+      100 countries. Stripe helps new companies get started and grow their revenues,
+      and established businesses accelerate into new markets and launch new
+      business models. Over the long term, Stripe aims to increase the GDP of the
+      internet.<br><br> Also, if you're looking for new engineering opportunities
+      we'd love to chat with you!
+
+   - name: Planet Innovation
+     twitter: planetinnovate
+     link: planetinnovation.com.au
+     href: https://planetinnovation.com.au
+     logo: planet-innovation.png
+     blurb: | 
+      We have our own portfolio of businesses, and also partner with
+      world-leading organizations to help them create game-changing innovations to
+      grow their business. To achieve this, we have hand-selected over 250 of the
+      brightest people, gathered deep market insights and developed a full spectrum
+      of commercialization capability to help us build the future.
+ 
+
+   - name: Divio
+     twitter: divio
+     link: divio.com
+     href: https://www.divio.com/?utm_source=website&utm_medium=sponsor&utm_campaign=pycon-au&utm_content=divioisbuiltfordjango
+     logo: divio.png
+     blurb: | 
+      Divio is a platform for running your Django projects.
+      <br><br>
+      We get you going faster with Django optimised hosting, developer tools and
+      pre-configured projects including django CMS and Wagtail.
+      <br><br>
+      What can we do for you? <a href="https://www.divio.com/?utm_source=website&utm_medium=sponsor&utm_campaign=pycon-au&utm_content=divioisbuiltfordjango">Find out more.</a>
+ 
+
+
+- 
+  title: Contributor ✨
+  sponsors:
+    - name: Tritium
+      logo: tritium.png
+      link: tritium.com.au
+      href: https://www.tritium.com.au/
+    - name: Enstaved
+      logo: enstaved.png
+      link: www.enstaved.com
+      href: https://www.enstaved.com/
+    - name: Cochlear
+      logo: cochlear.jpg
+      link: careers.cochlear.com
+      href: http://careers.cochlear.com/cw/en/listing/
+    - name: Orchid Systems
+      logo: orchid_systems.jpg
+      link: www.orchid.systems
+      href: https://www.orchid.systems
+    - name: Odoo Community Association
+      logo: oca.png
+      link: odoo-community.org
+      href: https://odoo-community.org/
 
 - 
   title: Auspice

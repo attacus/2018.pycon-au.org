@@ -7,11 +7,10 @@ sponsors: False
         <div class="row">
             <div class="col">
                 <span class="site-heading header-green" style="display: inline-block;">
-                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-                    <span class="subheading">{{ page.description }}</span>
+                    <h1>{% if page.title %}{% if page.type == "invited" %}{{ page.title | split: "-" | join: "<br>" }}{%else%}{{page.title}}{%endif%}{% else %}{{ site.title }}{% endif %}</h1>
                 </span>
                 {% if page.snake %}
-                <span class="d-none d-lg-inline-block header-serpent"><img alt="Ooh, it's s snake" src="/static/img/header-{{ page.snake }}.png"></span>
+                <span class="d-none d-lg-inline-block header-serpent"><img alt="Ooh, it's a snake" src="/static/img/header-{{ page.snake }}.png"></span>
                 {% endif %}
             </div>
         </div>
@@ -23,13 +22,6 @@ sponsors: False
 </div>
 
 {% if page.sponsors %}
-<hr>
-<div class="container page-content sponsor-foot">
-    <div class="row">
-        <div class="col">
-            {% include sponsor_footer.html %}
-        </div>
-    </div>
-</div>
+{% include sponsor_footer.html %}
 {% endif %}
 

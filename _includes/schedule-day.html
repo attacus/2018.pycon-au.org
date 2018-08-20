@@ -13,7 +13,10 @@
       <div class="col-1">&nbsp;</div>
       {% for track in day.tracks %}
       <div class="col d-none d-lg-block">
-          <h5 class="track-header">{{ track.title }}</h5>
+          <h5 class="track-header">
+            {% if track.slug %}<a href="{{ page.permalink}}/{{ track.slug }}">{{ track.title }}</a>
+            {% else %}{{ track.title }}{% endif %}
+          </h5>
       </div>
       {% endfor %}
   </div>
@@ -30,16 +33,19 @@
                     {% assign colNum = forloop.index0 %}
                     {% if slot == session.talkid and session.service == null %}
                     <div class="col-12 col-lg">
-                        <div class="session {{ session.type }}">
+                        <div class="session {{ session.type }}" style="{{session.css}}">
                             {% if session.hide %}
-                                <h5>{{session.title}}</h5><div class="speaker">Yet to be announced</div>
+                                <h5>{{session.title}}</h5>
+                                {% if session.type == "keynote" %}<div class="speaker">Yet to be announced</div>{%endif%}
                             {% else %}
                             <h5><a target="_blank" href="{{session.url}}" {% if session.type == "track" %} style="color: {{track.color}} !important"{%endif%}>{{ session.title }}</a></h5>
                             {% if session.type == 'keynote' %}<div class="speaker">Invited Speaker</div>
                             {% elsif session.type == "talk"%}
-                                {% for speaker in session.speakers %}
-                                <div class="speaker">{{ speaker.name }}</div>
-                            {% endfor %}
+                                <div class="speaker">
+                                {% for speaker in session.speakers -%}
+                                {%- if forloop.index0 > 0 %} and {% endif %}{{ speaker.name }}
+                                {%- endfor %}
+                                </div>
                             {% endif %}
                             {% endif %}
                             <span class="d-lg-none">{% if track.track %}Track: {{track.track}}<br>{%endif%}Room: {{ track.title }}</span>
@@ -48,7 +54,7 @@
                     </div>
                     {% elsif slot == session.talkid and session.service != null %}
                     <div class="col-12 col-lg {% if session.hide-on-mobile %}d-none d-lg-block{% endif %} ">
-                        <div class="service {{session.type}} {% if session.short %}short{% else %}long{% endif %}">
+                        <div class="service {{session.type}} {% if session.short %}short{% else %}long{% endif %}" style="{{session.css}}">
                         {% if session.link %} <a href="{{session.link}}" class="session_link">{{ session.title }}</a>
                         {% else %}{{session.title}}{%endif%}
                         </div>
